@@ -1,2 +1,0 @@
-The media folder for project
-image, audio and movie
