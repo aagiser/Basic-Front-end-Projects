@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--This is head.-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page based on HTML Sololearn Course">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Ali Ashouri">
+    <title>My Landing Page</title>
+</head>
+
+<!--This is body.-->
+<body>
+    <!--the header section-->
+    <header>
+        <h1 style="text-align: center; background-color: #ffca3a; color: darkslategray;">Awesome Books</h1>
+    </header>
+
+    <!--the main section-->
+    <main>
+        <img src="media/horror novels.jpeg" alt="'HORROR NOVLES' Powered by DALL-E 3" style="width: 30%;">
+
+        <div style="font-size: 18px; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <p>
+                We are back with some <strong>horror books</strong>, by the graet author <em>Stephen King</em>
+                that make you feel fear!
+            </p>
+            <!--list of books-->
+            <ul>
+                <li>It</li>
+                <li>The Shining <img src="" alt=""></li>
+                <li>Pet Sematary</li>
+                <li>The Green Mile</li>
+                <li>The Outsider</li>
+                <li>If It Bleeds</li>
+            </ul>
+        </div>
+
+        <h2 style="color: darkslategray;">Order Now!</h2>
+        <!--fill form-->
+        <form action="" style="font-size: 16px; font-family: 'Times New Roman', Times, serif;">
+            <!--select the book and type of it-->
+            <select name="book" id="book">
+                <option value="It">It</option>
+                <option value="Shining">The Shining</option>
+                <option value="Pet_Sematrary">Pet Sematary</option>
+                <option value="Green_Mile">The Green Mile</option>
+                <option value="Outsider">The Outsider</option>
+                <option value="If_It_Bleeds">If It Bleeds</option>
+            </select>
+            <select name="cover" id="cover">
+                <option value="hard">Hard Cover</option>
+                <option value="paperback">Paperback</option>
+                <option value="ebook">E-Book</option>
+            </select>
+            <br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Ali Ashouri" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="ali.ashouri@mail.com" required>
+            <br><br>
+            <input type="submit" name="submit" value="submit" id="submit"
+                style="background-color: rgba(19, 125, 125, 0.807); color: antiquewhite;
+                border: none; border-radius: 5px; padding: 5px;"
+                >
+        </form>
+    </main>
+
+    <!--the footer section-->
+    <footer style="text-align: center; background-color: sienna; color: blanchedalmond;">
+        <p>Developer: &nbsp; &nbsp; Ali Ashouri</p>
+        <p>2024</p>
+    </footer>
+    
+</body>
+</html>
